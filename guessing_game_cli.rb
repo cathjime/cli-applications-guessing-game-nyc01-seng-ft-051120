@@ -3,7 +3,7 @@ def run_guessing_game
   random_num = rand(6) + 1
   puts "Guess a number from 1 - 6!"
   # input = gets.to_i 
-  if input == random_num
+  if input == random_num.to_S
     puts "You guessed the correct number!"
     elsif input == "exit"
     puts "Goodbye!"
