@@ -5,6 +5,8 @@ def run_guessing_game
   input = gets
   if input == random_num
     puts "You guessed the correct number!"
+  else 
+    
   end 
   
 end 
