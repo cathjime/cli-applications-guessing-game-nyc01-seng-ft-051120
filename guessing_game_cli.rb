@@ -4,5 +4,6 @@ def run_guessing_game
   puts "Guess a number from 1 - 6!"
   input = gets
   if input == random_num
+  end 
   
 end 
